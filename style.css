@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.THEdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #000;
+    width: 100%;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    /* min-width: 1000px; */
+    max-width: none;
+}
+
+.nav-div div{
+    display: flex;
+    justify-content: space-between;
+    min-width: 900px;
+}
+
+.nav img{
+    height: 60px;
+    width: 60px;
+}
+
+nav select{
+    font-size: 1rem;
+    padding: 5px;
+    box-sizing: content-box;
+}
+
+nav a{
+    color: #fff;
+}
+
+.nav a:focus{
+    color: #ffffff80;
+}
+
+#lang{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+}
+
+#lang img{
+    height: 40px;
+    width: 40px;
 }
