@@ -61,12 +61,12 @@ nav select{
     box-sizing: content-box;
 }
 
-nav a{
+.nav-item{
     color: #fff;
 }
 
-.nav a:focus{
-    color: #ffffff80;
+.nav-item-image{
+
 }
 
 #lang{
