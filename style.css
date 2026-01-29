@@ -46,7 +46,9 @@ html{
 .nav-div div{
     display: flex;
     justify-content: space-between;
-    min-width: 900px;
+    min-width: 400px;
+    max-width: 1200px;
+    width: 100%;
     align-items: center;
 }
 
