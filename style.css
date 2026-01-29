@@ -95,5 +95,9 @@ nav select{
 .offer table{
     margin: 5% 0;
     height: 90%;
-    border: 5px solid red;
+    background: #00000010;
+    border-radius: 5px;
+    max-width: 1200px;
+    min-width: 300px;
+    gap: 5px;
 }
