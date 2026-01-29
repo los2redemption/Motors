@@ -19,18 +19,20 @@ html{
 .THEdiv{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 80px;
+    height: 10vh;
     background: #000;
     width: 100%;
     flex-wrap: nowrap;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
 }
 
 .nav-div{
@@ -74,4 +76,11 @@ nav a{
 #lang img{
     height: 40px;
     width: 40px;
+}
+
+.main{
+    background: url("images/pexels-burst-374827.jpg")  no-repeat center center/cover;
+    filter: grayscale(100%);
+    width: 100%;
+    min-height: 90vh;
 }
