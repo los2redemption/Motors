@@ -92,3 +92,9 @@ nav select{
     align-items: center;
     justify-content: space-around;
 }
+
+.offer table{
+    margin: 5% 0;
+    height: 90%;
+    border: 5px solid red;
+}
