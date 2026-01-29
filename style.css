@@ -101,3 +101,7 @@ nav select{
     min-width: 300px;
     gap: 5px;
 }
+
+.offer table tr, .offer table td{
+    border: 1px solid #0002;
+}
