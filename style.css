@@ -28,7 +28,7 @@ html{
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    background: #222;
+    background: #111;
     width: 100%;
     flex-wrap: nowrap;
     font-weight: 600;
@@ -86,5 +86,3 @@ nav select{
     width: 100%;
     min-height: 90vh;
 }
-
-/* <!-- Radiocheck --> */
