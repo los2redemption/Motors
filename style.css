@@ -27,7 +27,7 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    min-height: 10vh;
     background: #111;
     width: 100%;
     flex-wrap: nowrap;
