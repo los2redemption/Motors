@@ -28,7 +28,7 @@ html{
     justify-content: space-around;
     align-items: center;
     height: 10vh;
-    background: #000;
+    background: #222;
     width: 100%;
     flex-wrap: nowrap;
     font-weight: 600;
@@ -40,15 +40,17 @@ html{
     justify-content: space-between;
     /* min-width: 1000px; */
     max-width: none;
+    align-items: center;
 }
 
 .nav-div div{
     display: flex;
     justify-content: space-between;
     min-width: 900px;
+    align-items: center;
 }
 
-.nav img{
+#nav-logo{
     height: 60px;
     width: 60px;
 }
@@ -70,7 +72,7 @@ nav a{
 #lang{
     width: 40px;
     height: 40px;
-    background: #fff;
+    /* background: #fff; */
 }
 
 #lang img{
