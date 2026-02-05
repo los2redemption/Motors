@@ -109,8 +109,11 @@ nav select{
     border-radius: 5px;
     max-width: 1200px;
     min-width: 300px;
-    gap: 5px;
+    /* gap: 5px; */
     padding: 10px;
+    border-spacing: 10px;
+    font-size: 32px;
+    line-height:64px;
 }
 
 .offer table tr, .offer table td{
