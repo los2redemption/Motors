@@ -93,21 +93,28 @@ nav select{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    backdrop-filter: blur(100%);
+    backdrop-filter: blur(15px);
+    width: fit-content;
+    margin: 50px auto;
+    padding: 50px;
+    box-sizing: content-box;
+    border-radius: 25px;
+    box-shadow: 0 0 1px #0007;
 }
 
 .offer table{
     margin: 5% 0;
     height: 90%;
-    background: #00000010;
+    /* background: #00000010; */
     border-radius: 5px;
     max-width: 1200px;
     min-width: 300px;
     gap: 5px;
+    padding: 10px;
 }
 
 .offer table tr, .offer table td{
-    border: 1px solid #0002;
+    /* border: 1px solid #0002; */
 }
 
 
