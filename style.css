@@ -134,4 +134,9 @@ nav select{
         flex-direction: column;
         text-align: center;
     }
+
+    .offer table{
+    font-size: 18px;
+    line-height:36px;
+}
 }
