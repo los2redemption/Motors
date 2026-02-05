@@ -140,5 +140,9 @@ nav select{
     .offer table{
     font-size: 18px;
     line-height:36px;
-}
+    }   
+    .offer{
+        padding: 0;
+        margin: 0;
+    }
 }
