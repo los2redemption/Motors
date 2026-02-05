@@ -93,6 +93,7 @@ nav select{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    backdrop-filter: blur(100%);
 }
 
 .offer table{
@@ -117,5 +118,10 @@ nav select{
 
     .nav-div{
         flex-direction: column;
+    }
+
+    .nav-div div{
+        flex-direction: column;
+        text-align: center;
     }
 }
