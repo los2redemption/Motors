@@ -100,6 +100,7 @@ nav select{
     box-sizing: content-box;
     border-radius: 25px;
     box-shadow: 0 0 1px #0007;
+     max-width:100vw;
 }
 
 .offer table{
@@ -114,6 +115,7 @@ nav select{
     border-spacing: 10px;
     font-size: 32px;
     line-height:64px;
+    max-width:100vw;
 }
 
 .offer table tr, .offer table td{
