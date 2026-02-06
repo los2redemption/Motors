@@ -85,6 +85,7 @@ nav select{
 
 .main{
     background: url("images/pexels-burst-374827.jpg")  no-repeat center center/cover;
+    background-attachment: fixed;
     width: 100%;
     min-height: 90vh;
     display: flex;
