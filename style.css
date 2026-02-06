@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 500;
 }
 
 a{
@@ -13,7 +14,6 @@ a{
 html{
     font-family: "Inter", sans-serif;
     font-size: 24px;
-    font-weight: 300;
 }
 
 .THEdiv{
@@ -87,6 +87,9 @@ nav select{
     background: url("images/pexels-burst-374827.jpg")  no-repeat center center/cover;
     width: 100%;
     min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .offer{
