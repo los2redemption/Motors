@@ -146,7 +146,7 @@ nav select{
     }   
     .offer{
         padding: 0;
-        margin: 0;
+        /* margin: 0; */
         border-radius: 0;
     }
 }
