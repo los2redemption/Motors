@@ -123,8 +123,10 @@ html{
 }
 
 #peregorodka{
-    height: 90%;
-    width: 20px;  
+    height: 600px;
+    width: 3px;  
+    background: #000;
+    border-radius: 1px;
 }
 
 
@@ -157,5 +159,10 @@ html{
         border-radius: 0;
         /* Radio check */
         flex-direction: column;
+    }
+
+    #peregorodka{
+        width: 150px;
+        height: 3px;
     }
 }
