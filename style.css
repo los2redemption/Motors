@@ -97,6 +97,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background: #ffffff40;
     backdrop-filter: blur(15px);
     width: fit-content;
     margin: 50px auto;
@@ -127,6 +128,12 @@ html{
     width: 3px;  
     background: #000;
     border-radius: 1px;
+}
+
+
+table caption{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 
