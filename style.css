@@ -73,16 +73,14 @@ nav select{
 }
 
 #lang{
-    width: 40px;
-    height: 40px;
-    /* background: #fff; */
+    font-size: 48px;
 }
 
-#lang img{
+/* #lang img{
     height: 40px;
     width: 40px;
-    font-size: 32px;
-}
+    
+} */
 
 .main{
     background: url("images/pexels-burst-374827.jpg")  no-repeat center center/cover;
