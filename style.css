@@ -141,6 +141,18 @@ table caption{
      border: 1px solid #0002; 
 } */
 
+.footer{
+    background: #111;
+    color: #fff;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+    font-size: 24px;
+}
+
 
 @media only screen and (max-width:600px) {
     .nav{
